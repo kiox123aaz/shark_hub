@@ -143,7 +143,7 @@ function Text(value)
     game.StarterGui:SetCore("SendNotification", {
         Title = "Shark  Notification", 
         Text = tostring(value),
-        Icon = "http://www.roblox.com/asset/?id=9606070311",
+        Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
         Duration = 10
     })
 end
@@ -151,7 +151,7 @@ function Com()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Shark  Notification", 
         Text = "✅  Complete",
-        Icon = "http://www.roblox.com/asset/?id=9606070311",
+        Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
         Duration = 5
     })
 end
@@ -2915,7 +2915,7 @@ if IKAI then
 				IMGBUTTON.BackgroundTransparency = 1.000
 				IMGBUTTON.Position = UDim2.new(0, 10, 0, 5)
 				IMGBUTTON.Size = UDim2.new(0, 20, 0, 20)
-				IMGBUTTON.Image = "http://www.roblox.com/asset/?id=9606312215"
+				IMGBUTTON.Image = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436"
 	
 	
 				Black.Name = "Black"
@@ -3691,11 +3691,11 @@ end
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Shark  Notification", 
 	Text = "ฟังชั่นที่มีไอคอนนี้สามารถเปิด\nพร้อมฟามเวลได้",
-	Icon = "http://www.roblox.com/asset/?id=9610159123",
+	Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
 	Duration = 8
 })
 
-local win = library:Window("Shark ",[[Hub]],[[Version : Premium ]],"9606070311",Enum.KeyCode.RightControl)
+local win = library:Window("Shark ",[[Hub]],[[Version : ไม่ต้องยุ่ง ]],"9606070311",Enum.KeyCode.RightControl)
 local General_Tab = win:Tab("General",[[7040391851]])
 local Quest_Tab = win:Tab("    Quest & Item",[[9606626859]])
 local PvP_Tab = win:Tab("PvP",[[9606626034]])
@@ -10581,7 +10581,7 @@ function HopServer()
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Hop Low Server ", 
 			Text = "กำลังหาเซิฟ",
-			Icon = "http://www.roblox.com/asset/?id=9606070311",
+			Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10607,7 +10607,7 @@ function HopServer()
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "Hop Low Server ", 
 					Text = "Players : " ..tonumber(v.playing),
-					Icon = "http://www.roblox.com/asset/?id=9606070311",
+					Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
 					Duration = 1.5
 				})
 				if tonumber(v.maxPlayers) > tonumber(v.playing) then
@@ -10662,7 +10662,7 @@ function HopLowServer()
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Hop Server S", 
 			Text = "กำลังหาเซิฟ",
-			Icon = "http://www.roblox.com/asset/?id=9606070311",
+			Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10688,7 +10688,7 @@ function HopLowServer()
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "HopServer", 
 					Text = "Players : " ..tonumber(v.playing),
-					Icon = "http://www.roblox.com/asset/?id=9606070311",
+					Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
 					Duration = 1.5
 				})
 				if tonumber(v.maxPlayers) > tonumber(v.playing) then
@@ -10744,7 +10744,7 @@ Island_Tab:Button("Re join Server",function()
 	game.StarterGui:SetCore("SendNotification", {
         Title = "Re Join Server", 
         Text = "Ready Go!",
-        Icon = "http://www.roblox.com/asset/?id=9606070311",
+        Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
         Duration = 10
     })
 	_G.TP_Ser = true
