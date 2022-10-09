@@ -143,7 +143,7 @@ function Text(value)
     game.StarterGui:SetCore("SendNotification", {
         Title = "Shark  Notification", 
         Text = tostring(value),
-        Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+        Icon = "http://www.roblox.com/asset/?id=11222768588",
         Duration = 10
     })
 end
@@ -151,7 +151,7 @@ function Com()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Shark  Notification", 
         Text = "✅  Complete",
-        Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+        Icon = "http://www.roblox.com/asset/?id=11222768588",
         Duration = 5
     })
 end
@@ -2915,7 +2915,7 @@ if IKAI then
 				IMGBUTTON.BackgroundTransparency = 1.000
 				IMGBUTTON.Position = UDim2.new(0, 10, 0, 5)
 				IMGBUTTON.Size = UDim2.new(0, 20, 0, 20)
-				IMGBUTTON.Image = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436"
+				IMGBUTTON.Image = "http://www.roblox.com/asset/?id=11222768588"
 	
 	
 				Black.Name = "Black"
@@ -3691,7 +3691,7 @@ end
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Shark  Notification", 
 	Text = "ฟังชั่นที่มีไอคอนนี้สามารถเปิด\nพร้อมฟามเวลได้",
-	Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+	Icon = "http://www.roblox.com/asset/?id=11222768588",
 	Duration = 8
 })
 
@@ -10581,7 +10581,7 @@ function HopServer()
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Hop Low Server ", 
 			Text = "กำลังหาเซิฟ",
-			Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+			Icon = "http://www.roblox.com/asset/?id=11222768588",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10607,7 +10607,7 @@ function HopServer()
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "Hop Low Server ", 
 					Text = "Players : " ..tonumber(v.playing),
-					Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+					Icon = "http://www.roblox.com/asset/?id=11222768588",
 					Duration = 1.5
 				})
 				if tonumber(v.maxPlayers) > tonumber(v.playing) then
@@ -10662,7 +10662,7 @@ function HopLowServer()
 		game.StarterGui:SetCore("SendNotification", {
 			Title = "Hop Server S", 
 			Text = "กำลังหาเซิฟ",
-			Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+			Icon = "http://www.roblox.com/asset/?id=11222768588",
 			Duration = 25
 		})
 		local PlaceID = game.PlaceId
@@ -10688,7 +10688,7 @@ function HopLowServer()
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "HopServer", 
 					Text = "Players : " ..tonumber(v.playing),
-					Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+					Icon = "http://www.roblox.com/asset/?id=11222768588",
 					Duration = 1.5
 				})
 				if tonumber(v.maxPlayers) > tonumber(v.playing) then
@@ -10744,7 +10744,7 @@ Island_Tab:Button("Re join Server",function()
 	game.StarterGui:SetCore("SendNotification", {
         Title = "Re Join Server", 
         Text = "Ready Go!",
-        Icon = "https://media.discordapp.net/attachments/895860505170808832/949144028807569458/IMG_6432-removebg-preview.png?width=308&height=436",
+        Icon = "http://www.roblox.com/asset/?id=11222768588",
         Duration = 10
     })
 	_G.TP_Ser = true
